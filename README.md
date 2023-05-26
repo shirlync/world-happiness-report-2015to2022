@@ -28,11 +28,14 @@ about 1.0 point lower, followed by Underdeveloped countries.
 6.3 to 5.3 point, largely affected by Social support and Trustworthiness towards the Government. The score gradually grew subsequently, but was still far off from the score in 2018.
 <img width="638" alt="image" src="https://github.com/shirlync/world-happiness-report-2015to2022/assets/113419639/063eb904-092a-41cc-9951-5bd57067f974">
 <br/>
+![Uploading image.png…]()
+
 <br/>
 - Further analysis in Python: I would also like to know which factors are influencing the happiness score. Hence, I used Seaborn library to create heatmap, and from there, 
 I noticed that GDP of the country, Health and Life expectancy are 2 factors that greatly impact the score, which is in line with Developed country scoring the higher happiness score.
-Utilizing pairplot, I look at the relationship between the metrics and happiness score as well. Similar to the heatmap, GDP and Health/Life expectancy have a linear relationship with
-happiness score though there are few outliers.
+Utilizing pairplot, I look at the relationship between the metrics and happiness score as well. Similar to the heatmap, GDP and Health/Life expectancy have a linear relationship with happiness score though there are few outliers.
+![Uploading image.png…]()
+
 
 #### Limitation/ Issues of the Analysis:
 - The metrics used to measure citizen happiness within their country seems to skew towards developed countries. For instance, GDP, Health and Freedom. Naturally, developed 
